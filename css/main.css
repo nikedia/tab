@@ -1,0 +1,79 @@
+/* reset  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* general aspects*/
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+/* <!-- Introduction Section --> */
+header title {
+    color: #fcb425;
+    font: 3em;
+    text-align: center;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+}
+
+header p {
+    color: #1a1a1a;
+    font-size: 1em;
+}    
+
+/* <!-- Nav menu Section -->    */
+nav {
+    width: 100%;
+    color: white;
+    font-size: 1.5em;
+    border-bottom: 1px solid #fcb425;
+    margin-top: 20px;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.tab {
+    color: white;
+    background-color: #fcb425;
+    border-radius: 5%;
+    border-bottom: none;
+    padding: 10px;
+    width: 100px;
+}
+
+
+/* <!-- Breakfast, Lunch and Dinner contents Section --> */
+.divImg, .divText{
+    display:  inline-block;
+}
+
+.food {
+    width: 500px;
+    height: 400px;
+}
+
+.divText  {
+    position: absolute;
+    padding-left: 36px;
+}
+
+.divText h3 {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.divText li {
+    list-style: square;
+}
